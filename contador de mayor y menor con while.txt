@@ -1,0 +1,30 @@
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+
+  int inicial;
+  int final;
+
+void main(){
+cout<<"ingrese el numero final: \n";
+cin>>final;
+cout<<"ingrese el numero inicial: \n";
+cin>>inicial;
+
+if (inicial<final){
+while(inicial<final){
+inicial=inicial+2;
+cout<<"\n "<<inicial;
+}
+}
+
+if (inicial>final){
+while(inicial>final){
+inicial=inicial-2;
+cout<<"\n "<<inicial;
+}
+}
+
+getch();
+}

@@ -1,0 +1,34 @@
+    //IMPORTACION DE LIBRERIAS
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+      int numero1;
+       void main (){
+     cout<<"INGRESE UN NUMERO DEL 1 AL 7\n" ;
+     cin>>numero1;
+
+
+     if (numero1==1)  {
+      cout<<"HOY ES LUNES   "<<numero1;
+     }
+     if (numero1==2){
+      cout<<"HOY ES MARTES  "<<numero1;
+      }
+        if (numero1==3)  {
+      cout<<"HOY ES MIERCOLES   "<<numero1;
+     }
+     if (numero1==4){
+      cout<<"HOY ES JUEVES  "<<numero1;
+      }
+        if (numero1==5)  {
+      cout<<"HOY ES VIERNES   "<<numero1;
+     }
+     if (numero1==6){
+      cout<<"HOY ES SABADO "<<numero1;
+      }
+      if (numero1==7){
+      cout<<"HOY ES DOMINGO "<<numero1;
+      }
+     getch();
+    }

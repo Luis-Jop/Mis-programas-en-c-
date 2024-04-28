@@ -1,0 +1,51 @@
+   //IMPORTACION DE LIBRERIAS
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+
+   void main(){
+
+     int op;
+     int n1;
+     int n2;
+     int res;
+     int n;
+
+     cout<<"               MENU\n\n";
+     cout<<"          QUE DESEA REALIZAR\n\n";
+      cout<<"  A). Operaciones basicas \n";
+      cout<<"  B). Conversiones de medidas\n";
+      cout<<"  C). Ley de los signos\n\n";
+      cin>> op;
+
+     if (op='A')
+     {
+     do{
+     cout<<"           OPERACIONES BASICAS \n\n";
+     cout<<"  1). Suma\n";
+     cout<<"  2). Resta\n";
+     cout<<"  3). Multiplicacion\n";
+     cout<<"  4). Divioion\n";
+     cin>> op;
+
+     switch (op)
+     {
+     case 1 :
+
+     cout<<"          SELLECIONO UNA SUMA\n\n";
+     cout<<" ingrese el primer numero\n";
+     cin>>n1;
+     cout<<"ingrese el segundo numero\n";
+     cin>>n2;
+
+     res=n1+n2;
+     cout<<" el resultado de la suma es: "<<res;
+      }
+       }
+       while (op=op);
+       }
+
+
+     getch();
+   }

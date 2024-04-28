@@ -1,0 +1,19 @@
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+
+int inicial=0;
+int final=20;
+int x ;
+   void main(){
+
+
+ if (inicial<final){
+for (x=inicial;x<=final;x++)
+ {
+cout<<" \n"<<x;
+}
+}
+getch();
+}

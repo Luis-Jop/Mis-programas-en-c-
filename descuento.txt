@@ -1,0 +1,30 @@
+//programado por LUIS JOP
+//DESCUENTO DE PRODUCTO
+
+//IMPORTACION DE LIBRERIAS
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+
+   void main(){
+   int precio;
+   int descuento;
+   int pagado;
+   int porcentaje;
+   int desc;
+
+   cout<<"ingrese el precio del producto\n";
+   cin>>precio;
+   cout<<"ingrese el valor pagado del producto\n";
+   cin>>pagado;
+
+   descuento=precio-pagado;
+	porcentaje=(pagado*100)/precio;
+	desc=100-porcentaje;
+
+   cout<<"el total del descuento es Q. "<<descuento;
+   cout<<" \n el porcentaje del descuento es de: "<<desc;
+   cout<<"%";
+   getch();
+   }

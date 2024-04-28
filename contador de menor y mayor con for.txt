@@ -1,0 +1,31 @@
+       //IMPORTACION DE LIBRERIAS
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+
+int inicial;
+int final;
+int x;
+void main(){
+cout<<"ingrese el numero final: \n";
+cin>>final;
+cout<<"ingrese el numero inicial: \n";
+cin>>inicial;
+
+ if (inicial<final){
+for (x=inicial;x<=final;x=x+2)
+ {
+cout<<" \n"<<x;
+}
+}
+
+ if (inicial>final){
+for (x=inicial;x>=final;x=x-2)
+ {
+cout<<" \n"<<x;
+}
+}
+
+getch();
+}

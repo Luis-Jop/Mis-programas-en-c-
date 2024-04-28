@@ -1,0 +1,66 @@
+ //programado por LUIS JOP
+  //PROGRAMA DE SUM, RES, MUL, DIV.
+
+  //IMPORTACION DE LIBRERIAS
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+
+  //CUERPO DEL PROGRAMA
+  void main (){
+  //declaracion de variables
+  int n1;
+  int n2;
+  int sum;
+  int n3;
+  int n4;
+  int res;
+  int n5;
+  int n6;
+  int multi;
+  int div;
+  //imprimir en pantalla
+   cout<<"-----suma de dos numeros-----  \n";
+   cout<<"_____ingrese dos numeros..... \n";
+
+   //guardar la variable
+   cin>>n1;
+   cin>>n2;
+
+   //operacion de variable
+   sum=n1+n2;
+   cout<<"el resultado de la suma es: "<<sum;
+   cout<<"\nenter para realizar una resta";
+
+     getch();
+
+   cout<<"\n\n-----resta de dos numeros----- \n";
+   cout<<"_____ingrese dos numeros..... \n";
+
+   cin>>n3;
+   cin>>n4;
+   res=n3-n4;
+   cout<<"el resultado de la resta es: "<<res;
+   cout<<" \n enter para realizar una multiplicacion";
+       getch();
+
+   cout<<" \n \n-----multiplicacion de dos numeros------ \n";
+   cout<<"_____ingrese dos numeros.....\n";
+   cin>>n5;
+   cin>>n6;
+   multi=n5*n6;
+   cout<<"el resultado de la multiplicacion es: "<<multi;
+   cout<<"\n enter para realizar una divicion \n";
+   getch();
+
+   cout<<" \n-----divicion de numeros-----";
+   cout<<"\n-----ingrese dos numeros.....\n";
+   cin>>n1;
+   cin>>n2;
+   div=n1/n2;
+   cout<<" el resultado de la divicion es: "<<div;
+   cout<<"\nenter para terminar el programa";
+   getch();
+   }
+

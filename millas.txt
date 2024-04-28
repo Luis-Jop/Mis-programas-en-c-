@@ -1,0 +1,25 @@
+//programado por LUIS JOP
+//DESCUENTO DE PRODUCTO
+
+//IMPORTACION DE LIBRERIAS
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+
+  void main(){
+    int millas;
+    int kilometros;
+    int metros;
+    cout<<"ingrese el numero de millas \n" ;
+    cin>>millas;
+
+    metros=millas*185;
+	kilometros=metros/1000;
+
+   cout<<" las millas en metros son: " <<metros;
+   cout<<" MTS\n";
+   cout<<"las millas en kilometros son: "<<kilometros;
+   cout<<" KM";
+   getch();
+   }

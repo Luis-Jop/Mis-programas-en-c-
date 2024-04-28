@@ -1,0 +1,13 @@
+//IMPORTACION DE LIBRERIAS
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+
+int x;
+void main(){
+for (x=1;x<=10;x++) {
+cout<<" \n"<<x;
+}
+getch();
+}

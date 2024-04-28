@@ -1,0 +1,27 @@
+ #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+
+ int promedio;
+     int suma;
+     int contar;
+      int eva=1;
+void main(){
+cout<<"ingrese el numero a promediar: \n";
+cin>>promedio;
+
+
+
+
+for (suma=suma+contar;eva<=promedio; eva=eva+1)
+ { cout<<"ingrese el numero : "<<eva<<"\n";
+cin>>contar;
+}
+cout<<"\n el promedio es: "<<suma/promedio;
+
+
+
+
+getch();
+}

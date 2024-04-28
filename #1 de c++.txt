@@ -1,0 +1,27 @@
+ //programado por LUIS JOP
+  //PROGRAMA DE SUMA
+
+  //IMPORTACION DE LIBRERIAS
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+
+  //CUERPO DEL PROGRAMA
+  void main(){
+  //declaracion de variables
+  int n1;
+  int n2;
+  int res;
+
+  //imprimir en pantalla
+   cout<<"la suma de dos numeros  \n";
+   cout<<"ingrese dos numeros \n";
+   //guardar la variable
+   cin>>n1;
+   cin>>n2;
+   //operacion de variable
+   res=n1+n2;
+   cout<<"el resultado de la suma es: "<<res;
+   getch();
+  }

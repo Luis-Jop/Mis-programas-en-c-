@@ -1,0 +1,14 @@
+//IMPORTACION DE LIBRERIAS
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+
+int x;
+void main(){
+while(x<10){
+x=x+1;
+cout<<"\n"<<x;
+}
+getch();
+}

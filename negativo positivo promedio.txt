@@ -1,0 +1,37 @@
+          //IMPORTACION DE LIBRERIAS
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+    int n;
+    float promedio;
+    int positivos=0;
+    int negativo=0;
+    int num;
+    int suma;
+    void main(){
+     cout<<"cuantos numero desea ingresar \n";
+     cin>>n;
+    for(int i=1;i<=n;i++){
+    cout<<"ingrese un numero\n";
+    cin>>num;
+
+    if(num<0)
+    {
+    negativo++;
+    }
+    if(num>0)
+     {
+    positivos++;
+    suma=suma+num;
+
+
+    }
+
+    }
+      promedio=suma/positivos;
+    cout<<"\nla suma de los numeros positivos es :"  <<suma;
+    cout<<" \nla cantidad de numeros negativos son :"  <<negativo;
+    cout<<" \nel promedio de la suma es :"  <<promedio;
+ getch();
+  }

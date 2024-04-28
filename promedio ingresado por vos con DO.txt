@@ -1,0 +1,32 @@
+  //IMPORTACION DE LIBRERIAS
+
+                                                                                                                                                                         //IMPORTACION DE LIBRERIAS
+  #include <iostream.h>
+  #include <conio.h>
+  #include <stdlib.h>
+  #include <stdio.h>
+     int promedio;
+     int suma;
+     int contar;
+      int eva=1;
+
+  void main(){
+   cout<<" ingrese el numero a promediar:\n";
+   cin>> promedio;
+
+    do{
+
+     cout<<"   ingrese los numeros: "<<eva<<" \n";
+     cin>>contar;
+     suma=suma+contar;
+     eva=eva+1;
+      }
+
+     while(eva<=promedio);
+    cout<<"\n  el promedio es : "<<suma/promedio;
+
+
+
+    getch();
+
+  }
